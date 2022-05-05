@@ -9,7 +9,7 @@ file = input("Enter file :")
 try:
         v = open(file, 'r').read()
 except:
-        print("Sorry, I couldn't find a file with the name Ali"+file)
+        print("Sorry, I couldn't find a file with the name :"+file)
         sys.exit()
 
 v = v.split("\n")
